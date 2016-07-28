@@ -1,0 +1,18 @@
+{
+    "name": "devdots/kc-database",
+    "description": "Kohana's database module as stand-alone composer package adaptation",
+    "type": "library",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Florin Iacob",
+            "email": "bigdot@devdots.com"
+        }
+    ],
+    "autoload" : {
+      "psr-4" : {
+        "KC\\" : "lib/"
+      }
+    },
+    "require": {}
+}
